@@ -87,7 +87,7 @@ It converts documents into an intelligent knowledge base by using LLMs, semantic
 - npm install
 - npm start
 
-##ML Service
+## ML Service
 - cd ml-service
 - pip install -r requirements.txt
 - python app.py

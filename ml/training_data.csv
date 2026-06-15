@@ -1,0 +1,145 @@
+text,subject
+"inheritance class subclass superclass extends polymorphism encapsulation abstraction object oriented programming method overriding",OOP
+"polymorphism compile time runtime method overloading operator overloading virtual function dynamic dispatch",OOP
+"encapsulation data hiding access specifier getter setter private public protected member function constructor",OOP
+"abstraction abstract class interface pure virtual function multiple inheritance hierarchical hybrid",OOP
+"class object instance attribute method constructor destructor copy constructor friend function static",OOP
+"object oriented design principles SOLID single responsibility open closed Liskov substitution",OOP
+"UML class diagram object diagram use case inheritance association aggregation composition",OOP
+"Java class objects inheritance polymorphism interface abstract class packages exception handling",OOP
+"C++ class object constructor destructor operator overloading template inheritance virtual function",OOP
+"Python class object self method inheritance super override dunder methods special methods",OOP
+"object oriented programming concepts reusability code modularity maintainability",OOP
+"method overriding compile time polymorphism runtime polymorphism early binding late binding",OOP
+"class hierarchy base class derived class is-a relationship has-a relationship",OOP
+"access modifiers public private protected default package scope visibility",OOP
+"constructor types default parameterized copy constructor destructor object lifecycle",OOP
+"array linked list stack queue tree binary tree binary search tree graph heap hash table trie",Data Structures
+"sorting merge sort quick sort heap sort insertion sort selection sort bubble sort time complexity",Data Structures
+"graph BFS DFS breadth first depth first traversal adjacency matrix adjacency list spanning tree",Data Structures
+"binary tree inorder preorder postorder traversal balanced tree AVL tree red black tree height leaf",Data Structures
+"hash map hash table collision chaining open addressing hash function load factor rehashing",Data Structures
+"stack push pop peek LIFO queue enqueue dequeue FIFO circular queue priority queue",Data Structures
+"linked list node pointer next previous singly doubly circular insertion deletion traversal",Data Structures
+"tree node root leaf height depth degree binary tree complete full perfect balanced",Data Structures
+"heap max heap min heap heapify insert delete extract priority queue implementation",Data Structures
+"graph representation matrix list directed undirected weighted unweighted cycle connected",Data Structures
+"dynamic array vector resizing amortized complexity list abstract data type operations",Data Structures
+"queue operations front rear circular implementation array linked list overflow underflow",Data Structures
+"search algorithms linear binary sequential sorted array midpoint index comparison",Data Structures
+"tree balancing rotation AVL Red Black B tree self balancing height difference",Data Structures
+"hashing collision resolution separate chaining linear probing quadratic probing double hashing",Data Structures
+"dynamic programming memoization tabulation overlapping subproblems optimal substructure",Algorithms
+"recursion base case recursive case divide and conquer merge sort tree traversal factorial",Algorithms
+"greedy algorithm activity selection fractional knapsack Huffman coding minimum spanning tree",Algorithms
+"backtracking N queens sudoku rat in maze graph coloring constraint satisfaction pruning",Algorithms
+"time complexity space complexity big O notation best worst average case asymptotic analysis",Algorithms
+"binary search logarithmic time sorted array midpoint algorithm complexity search",Algorithms
+"Dijkstra shortest path algorithm graph weighted directed undirected priority queue",Algorithms
+"Bellman Ford Floyd Warshall all pairs shortest path negative edge cycle detection",Algorithms
+"Kruskal Prim minimum spanning tree greedy edge weight union find disjoint set",Algorithms
+"topological sort directed acyclic graph DAG Kahn's algorithm DFS based ordering",Algorithms
+"string matching KMP Rabin Karp Boyer Moore pattern text preprocessing failure function",Algorithms
+"bit manipulation bitwise AND OR XOR NOT shift left right complement tricks",Algorithms
+"amortized analysis aggregate accounting potential method dynamic table resizing",Algorithms
+"divide and conquer recurrence relation Master theorem merge sort binary search",Algorithms
+"branch and bound optimization traveling salesman assignment problem state space",Algorithms
+"database DBMS relational database SQL query table relation schema primary key foreign",DBMS
+"SQL select insert update delete join inner outer left right full cross where group by",DBMS
+"normalization first normal form second third BCNF functional dependency decomposition",DBMS
+"transaction ACID atomicity consistency isolation durability commit rollback deadlock",DBMS
+"ER diagram entity relationship attribute cardinality primary key candidate surrogate",DBMS
+"indexing B-tree B+ tree clustered non-clustered query optimization cost estimation",DBMS
+"NoSQL MongoDB document database collection schema-less BSON aggregation pipeline",DBMS
+"concurrency control locking two phase lock timestamp serialization conflict serializability",DBMS
+"query processing parsing optimization execution plan cost estimation statistics",DBMS
+"relational algebra projection selection join Cartesian product union intersection",DBMS
+"stored procedure trigger view function index database objects SQL programming",DBMS
+"data warehouse OLAP OLTP star schema snowflake dimension fact table ETL",DBMS
+"distributed database replication partitioning sharding CAP theorem consistency availability",DBMS
+"SQL aggregate functions COUNT SUM AVG MIN MAX GROUP BY HAVING nested subquery",DBMS
+"database recovery backup restore log checkpoint undo redo failure recovery system",DBMS
+"machine learning supervised unsupervised reinforcement learning training test validation",Machine Learning
+"linear regression gradient descent cost function mean squared error prediction feature",Machine Learning
+"classification logistic regression sigmoid binary cross entropy decision boundary accuracy",Machine Learning
+"neural network deep learning perceptron activation function ReLU backpropagation weight",Machine Learning
+"convolutional neural network CNN image classification feature map pooling filter kernel",Machine Learning
+"random forest decision tree ensemble bagging boosting gradient boosting XGBoost feature",Machine Learning
+"support vector machine SVM kernel RBF polynomial margin hyperplane classification",Machine Learning
+"clustering K-means hierarchical DBSCAN centroid unsupervised silhouette elbow method",Machine Learning
+"overfitting underfitting regularization L1 L2 dropout cross validation bias variance",Machine Learning
+"natural language processing NLP tokenization embedding word2vec BERT transformer",Machine Learning
+"dimensionality reduction PCA t-SNE feature selection variance explained components",Machine Learning
+"recommendation system collaborative filtering content based matrix factorization",Machine Learning
+"evaluation metrics accuracy precision recall F1 score ROC AUC confusion matrix",Machine Learning
+"hyperparameter tuning grid search random search learning rate batch size epochs",Machine Learning
+"transfer learning pretrained model fine tuning feature extraction frozen layers",Machine Learning
+"recurrent neural network LSTM GRU sequence to sequence time series vanishing gradient",Machine Learning
+"generative adversarial network GAN discriminator generator latent space image synthesis",Machine Learning
+"data preprocessing normalization standardization missing values imputation encoding",Machine Learning
+"operating system process thread CPU scheduling FCFS SJF priority round robin",Operating Systems
+"memory management paging segmentation virtual memory page table TLB frame fault",Operating Systems
+"deadlock mutual exclusion hold wait circular wait prevention avoidance Banker algorithm",Operating Systems
+"semaphore mutex critical section race condition synchronization producer consumer",Operating Systems
+"file system directory inode block FAT NTFS ext4 allocation free space management",Operating Systems
+"system call kernel user mode interrupt trap hardware software I/O device driver",Operating Systems
+"process management PCB states new ready running waiting terminated context switch",Operating Systems
+"interprocess communication IPC shared memory message passing pipe socket signal",Operating Systems
+"scheduling algorithms preemptive non preemptive FCFS SJF priority multilevel feedback",Operating Systems
+"memory allocation fixed variable dynamic partitioning fragmentation compaction buddy",Operating Systems
+"disk scheduling FCFS SSTF SCAN C-SCAN LOOK seek time rotational latency throughput",Operating Systems
+"virtual memory demand paging page replacement FIFO LRU optimal working set thrashing",Operating Systems
+"multithreading thread synchronization critical section mutex semaphore deadlock monitor",Operating Systems
+"boot process BIOS MBR bootloader kernel loading init process system initialization",Operating Systems
+"shell scripting bash commands process management file permissions environment variables",Operating Systems
+"computer networks OSI model TCP IP layer application transport network data link physical",Computer Networks
+"TCP UDP protocol port socket connection three way handshake congestion flow control",Computer Networks
+"IP address subnet mask CIDR NAT DHCP ARP DNS routing forwarding table",Computer Networks
+"HTTP HTTPS request response GET POST status code header cookie session REST API",Computer Networks
+"router switch hub bridge repeater LAN WAN MAN topology star ring bus mesh",Computer Networks
+"cryptography encryption decryption symmetric asymmetric RSA AES public key signature",Computer Networks
+"network security firewall intrusion detection VPN tunneling protocol SSL TLS",Computer Networks
+"wireless network WiFi IEEE 802.11 frequency band channel access point SSID",Computer Networks
+"routing protocols OSPF BGP RIP distance vector link state routing table update",Computer Networks
+"network layer IP datagram fragmentation TTL checksum forwarding routing",Computer Networks
+"transport layer TCP segment UDP datagram port number multiplexing demultiplexing",Computer Networks
+"application layer DNS HTTP FTP SMTP POP3 IMAP email web browser client server",Computer Networks
+"error detection correction CRC checksum parity bit Hamming code data link layer",Computer Networks
+"flow control sliding window stop and wait go back N selective repeat",Computer Networks
+"network address translation NAT port forwarding private public IP subnet",Computer Networks
+"HTML CSS web page document object model selector style element tag attribute",Web Development
+"JavaScript DOM manipulation event listener function variable array object async await",Web Development
+"React component props state hooks useState useEffect JSX virtual DOM lifecycle",Web Development
+"Node.js Express REST API route middleware request response JSON server backend",Web Development
+"MongoDB database CRUD operations schema model query aggregation pipeline",Web Development
+"responsive design flexbox grid media query viewport mobile first layout CSS",Web Development
+"web security XSS CSRF SQL injection authentication authorization JWT token",Web Development
+"HTTP methods GET POST PUT DELETE PATCH RESTful API status codes headers",Web Development
+"package manager npm yarn webpack babel transpiler bundler module import export",Web Development
+"version control Git commit branch merge pull request repository GitHub GitLab",Web Development
+"deployment Docker container CI/CD pipeline cloud AWS Azure Heroku environment",Web Development
+"frontend backend full stack MERN MEAN architecture client server communication",Web Development
+"calculus derivative integral differentiation integration limit continuity chain rule",Mathematics
+"linear algebra matrix vector eigenvalue eigenvector determinant rank transpose inverse",Mathematics
+"probability statistics random variable distribution mean variance standard deviation",Mathematics
+"discrete mathematics sets relations functions logic proposition predicate proof induction",Mathematics
+"graph theory vertex edge degree path cycle Euler Hamiltonian planar coloring",Mathematics
+"differential equations ordinary partial initial boundary value homogeneous particular",Mathematics
+"number theory modular arithmetic prime factorization GCD LCM Euler Fermat theorem",Mathematics
+"combinatorics permutation combination binomial theorem pigeonhole principle inclusion",Mathematics
+"complex numbers real imaginary polar form Euler formula De Moivre theorem",Mathematics
+"Fourier series transform frequency domain signal periodic function convergence",Mathematics
+"numerical methods Newton Raphson bisection Gaussian elimination interpolation error",Mathematics
+"set theory union intersection complement subset power set Venn diagram",Mathematics
+"compiler design lexical analysis syntax parsing grammar token finite automaton",Computer Science
+"theory computation automata finite state machine regular expression context free",Computer Science
+"computer architecture ALU control unit memory cache pipeline RISC CISC instruction",Computer Science
+"digital logic gates flip flop register combinational sequential circuit Boolean algebra",Computer Science
+"information theory entropy Huffman coding channel capacity Shannon theorem coding",Computer Science
+"computer graphics rendering pipeline rasterization ray tracing shader GPU OpenGL",Computer Science
+"software engineering SDLC waterfall agile scrum sprint requirements design testing",Software Engineering
+"design patterns singleton factory observer strategy MVC architecture SOLID principles",Software Engineering
+"testing unit integration system acceptance regression test case coverage assertion",Software Engineering
+"code review refactoring clean code technical debt documentation maintainability",Software Engineering
+"project management estimation planning risk analysis resource allocation timeline",Software Engineering
+"microservices architecture API gateway service discovery load balancing fault tolerance",Software Engineering

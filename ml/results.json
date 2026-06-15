@@ -1,0 +1,297 @@
+{
+  "classifiers": [
+    {
+      "name": "Logistic Regression",
+      "accuracy": 62.07,
+      "precision": 51.03,
+      "recall": 62.07,
+      "f1_score": 53.51,
+      "cv_mean": 47.86,
+      "cv_std": 7.02
+    },
+    {
+      "name": "SVM (LinearSVC)",
+      "accuracy": 72.41,
+      "precision": 66.55,
+      "recall": 72.41,
+      "f1_score": 66.43,
+      "cv_mean": 57.64,
+      "cv_std": 7.36
+    },
+    {
+      "name": "Naive Bayes",
+      "accuracy": 68.97,
+      "precision": 64.48,
+      "recall": 68.97,
+      "f1_score": 63.15,
+      "cv_mean": 60.47,
+      "cv_std": 7.82
+    },
+    {
+      "name": "Random Forest",
+      "accuracy": 55.17,
+      "precision": 59.71,
+      "recall": 55.17,
+      "f1_score": 51.57,
+      "cv_mean": 49.29,
+      "cv_std": 6.52
+    }
+  ],
+  "best": "SVM (LinearSVC)",
+  "best_accuracy": 72.41,
+  "per_class": [
+    {
+      "subject": "Algorithms",
+      "precision": 66.7,
+      "recall": 66.7,
+      "f1": 66.7,
+      "support": 3
+    },
+    {
+      "subject": "Computer Networks",
+      "precision": 100.0,
+      "recall": 33.3,
+      "f1": 50.0,
+      "support": 3
+    },
+    {
+      "subject": "Computer Science",
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "support": 1
+    },
+    {
+      "subject": "DBMS",
+      "precision": 50.0,
+      "recall": 66.7,
+      "f1": 57.1,
+      "support": 3
+    },
+    {
+      "subject": "Data Structures",
+      "precision": 60.0,
+      "recall": 100.0,
+      "f1": 75.0,
+      "support": 3
+    },
+    {
+      "subject": "Machine Learning",
+      "precision": 66.7,
+      "recall": 100.0,
+      "f1": 80.0,
+      "support": 4
+    },
+    {
+      "subject": "Mathematics",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3
+    },
+    {
+      "subject": "OOP",
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "support": 3
+    },
+    {
+      "subject": "Operating Systems",
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "support": 3
+    },
+    {
+      "subject": "Software Engineering",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 1
+    },
+    {
+      "subject": "Web Development",
+      "precision": 66.7,
+      "recall": 100.0,
+      "f1": 80.0,
+      "support": 2
+    }
+  ],
+  "confusion_matrix": {
+    "labels": [
+      "Algorithms",
+      "Computer Networks",
+      "Computer Science",
+      "DBMS",
+      "Data Structures",
+      "Machine Learning",
+      "Mathematics",
+      "OOP",
+      "Operating Systems",
+      "Software Engineering",
+      "Web Development"
+    ],
+    "matrix": [
+      [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ]
+  },
+  "subjects": [
+    "Algorithms",
+    "Computer Networks",
+    "Computer Science",
+    "DBMS",
+    "Data Structures",
+    "Machine Learning",
+    "Mathematics",
+    "OOP",
+    "Operating Systems",
+    "Software Engineering",
+    "Web Development"
+  ],
+  "train_size": 115,
+  "test_size": 29,
+  "features": 8000
+}

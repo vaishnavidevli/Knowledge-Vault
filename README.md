@@ -78,28 +78,28 @@ It converts documents into an intelligent knowledge base by using LLMs, semantic
 
 
 ## Backend
-cd backend
-npm install
-npm start
+- cd backend
+- npm install
+- npm start
 
 ## Frontend
-cd frontend
-npm install
-npm start
+- cd frontend
+- npm install
+- npm start
 
 ##ML Service
-cd ml-service
-pip install -r requirements.txt
-python app.py
+- cd ml-service
+- pip install -r requirements.txt
+- python app.py
 
 ## Environment Variables
 
-Create a .env file in backend:
+- Create a .env file in backend:
 
-MONGO_URI=your_mongodb_url
-JWT_SECRET=your_secret
-GEMINI_API_KEY=your_key
-OPENAI_API_KEY=your_key
+- MONGO_URI=your_mongodb_url
+- JWT_SECRET=your_secret
+- GEMINI_API_KEY=your_key
+- OPENAI_API_KEY=your_key
 
 
 
